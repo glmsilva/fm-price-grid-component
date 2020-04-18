@@ -1,0 +1,107 @@
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-container {
+  background-color: #fff;
+  padding: 10px 25px;
+  height: 19rem;
+}
+
+.top-header {
+  font-weight: 700;
+  font-size: 1.60rem;
+  color:#2AB2AE ;
+
+}
+
+.top-container h2 {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 2rem 0 1.5rem 0 ;
+
+}
+
+.top-container p {
+  color: hsl(218, 22%, 67%);
+  line-height: 2;
+}
+
+.left-container{
+  background-color:#2AB2AE;
+  padding: 10px 25px;
+  height: 17rem;
+  color: #fff;
+}
+
+.left-container h1 {
+  font-weight: 400;
+  font-size: 1.30rem;
+  letter-spacing: 1px;
+}
+
+.left-container p {
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: hsl(204, 43%, 93%);
+}
+
+.left-container button {
+  height: 3.75rem;
+  width: 100%;
+  background-color:hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+
+}
+
+.money {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.per {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: rgb(100, 204, 202);
+
+}
+
+.right-container {
+  background-color:#3FC4C1;
+  padding: 10px 25px;
+  height: 33%;
+  color: #fff;
+}
+
+.right-container h1 {
+  font-weight: 400;
+  font-size: 1.30rem;
+  letter-spacing: 1px;
+} 
+
+.right-container ul {
+  list-style-type: none;
+  margin: 1.5rem 0;
+  padding: 0;
+  color: hsl(204, 43%, 93%);
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
